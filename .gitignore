@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (do not send to teammates, size is ~2.7 GB)
+venv/
+env/
+ENV/
+.venv/
+
+# Caches and temporary files
+.cache/
+.pytest_cache/
+*.log
+*.tmp
+
+# Large Model Weights (>100MB exceeds GitHub push limit)
+checkpoints/*.pt
+*.safetensors
+*.bin
+models/clinicalbert_local/models--*
+models/models--*
+models/medclip/
+pretrained/
+
+# Local environment & secrets
+.env
+.env.local
+
+# Dynamic test outputs (allow tracked sample demonstration outputs)
+# outputs/cli_manual_results/*.tmp
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary clone and test directories
+temp_*/
+lungxpert_*_backup/
