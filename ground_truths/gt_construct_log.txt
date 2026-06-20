@@ -1,0 +1,7 @@
+[2025-10-03 21:30:26]
+Min relevant items per query: 29
+Max relevant items per query: 743
+Avg relevant items per query: 547.38
+Saved generalization GT -> D:\Github\multi-modal-retrieval-predict-project\ground_truths\test_relevance.json
+Saved historical  GT -> D:\Github\multi-modal-retrieval-predict-project\ground_truths\test_to_train_relevance.json
+
