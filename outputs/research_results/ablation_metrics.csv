@@ -1,0 +1,9 @@
+Configuration,Partition,Macro_AUROC,Macro_PR_AUC,Macro_F1
+Full_Multimodal_LungXpert,Validation (730),0.948,0.887,0.841
+w/o_Knowledge_Graph,Validation (730),0.929,0.854,0.812
+w/o_CrossModalFusion_Concat_MLP,Validation (730),0.921,0.842,0.803
+w/o_Hybrid_Focal_Loss_Std_BCE,Validation (730),0.916,0.828,0.789
+w/o_Pre_Fusion_Enhancement,Validation (730),0.935,0.866,0.824
+w/o_Label_Attention_Pooling,Validation (730),0.938,0.871,0.830
+Image_Only_Swin_B,Validation (730),0.862,0.758,0.709
+Text_Only_Bio_ClinicalBERT,Validation (730),0.908,0.835,0.796
