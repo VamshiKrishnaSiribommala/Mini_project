@@ -1,0 +1,44 @@
+{
+  "Multimodal_LungXpert": {
+    "AUROC": 0.952,
+    "PR_AUC": 0.893,
+    "Macro_F1": 0.847,
+    "Micro_F1": 0.884,
+    "Subset_Acc": 0.912
+  },
+  "ClinicalBERT_Text": {
+    "AUROC": 0.914,
+    "PR_AUC": 0.841,
+    "Macro_F1": 0.803,
+    "Micro_F1": 0.835,
+    "Subset_Acc": 0.867
+  },
+  "Swin_B_Image": {
+    "AUROC": 0.868,
+    "PR_AUC": 0.765,
+    "Macro_F1": 0.718,
+    "Micro_F1": 0.772,
+    "Subset_Acc": 0.814
+  },
+  "MedCLIP_ViT_Image": {
+    "AUROC": 0.854,
+    "PR_AUC": 0.749,
+    "Macro_F1": 0.695,
+    "Micro_F1": 0.751,
+    "Subset_Acc": 0.798
+  },
+  "Concat_MLP": {
+    "AUROC": 0.926,
+    "PR_AUC": 0.856,
+    "Macro_F1": 0.811,
+    "Micro_F1": 0.846,
+    "Subset_Acc": 0.875
+  },
+  "ResNet50_Image": {
+    "AUROC": 0.832,
+    "PR_AUC": 0.718,
+    "Macro_F1": 0.642,
+    "Micro_F1": 0.704,
+    "Subset_Acc": 0.761
+  }
+}
