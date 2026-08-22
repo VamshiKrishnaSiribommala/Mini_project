@@ -1,0 +1,12 @@
+Pipeline_Stage,Mean_Latency_ms,Std_ms,Fraction_Percent
+DICOM_Ingestion_Windowing,6.2,0.4,8.7
+Clinical_Text_Tokenization,2.1,0.2,2.9
+Swin_B_Vision_Encoding,14.8,0.8,20.8
+Bio_ClinicalBERT_Encoding,9.4,0.5,13.2
+CrossModalFusion_5_Layers,7.3,0.4,10.2
+Classification_Head,1.2,0.1,1.7
+DenseLinkSearch_Retrieval,4.8,0.3,6.7
+Tri_Factor_Reranker,3.1,0.2,4.3
+Subtotal_Inference_and_Retrieval,48.9,2.4,68.6
+Grad_CAM_Backpropagation,22.4,1.8,31.4
+Total_Full_Pipeline,71.3,3.6,100.0
